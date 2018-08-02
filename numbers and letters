@@ -1,0 +1,84 @@
+# calculating 
+
+
+# hours are in a year
+
+print ('')
+print ("__HOURS__")
+print ("How many hours are in a year?")
+print ("Calculate first how many hours are in a month")
+print ("Number of days and hours in month is:")
+month_day = 30 
+print (month_day)
+num_hour = 24
+print (num_hour)
+hoursamonth = month_day * num_hour
+print ("hours in a month are:")
+print ("30 * 24")
+print(hoursamonth)
+
+year = 365 
+print ("Days in a year are:")
+print (year)
+print ("So hours in a year are:")
+print ("365 * 720")
+hoursayear = year * hoursamonth
+print(hoursayear)
+print ('')
+
+# Minutes in a decade
+
+print ("__DECADE__")
+print ("Calculate minutes are in decade")
+print ("Years in a decade are:")
+decade = 10
+print (decade)
+print ("We know how many hours there are in year:")
+print (hoursayear)
+print ("So we can find how many minutes are in a year")
+print ("Remember that:")
+print ("Minutes in one hour are:")
+minutes_hours = 60
+print (minutes_hours)
+print ("Minutes in a year are:")
+print ("60 * 262800")
+print (minutes_hours * hoursayear)
+minutesayear = 15768000 
+print ("Minutes in a decade are:")
+print ("10 * 15768000")
+print (decade * minutesayear)
+print ('') 
+
+# Age in seconds
+
+print ("__SECONDS__")
+print ("How many seconds old are?")
+age = "30 years old"
+print ("I am:")
+print (age)
+print ("How many decade they are in 30 years?")
+print (30/10)
+print ("We know that minutes in a decade are:")
+print (decade * minutesayear)
+print ("Seconds per minutes are:")
+secperminutes = 60
+print (secperminutes)
+print ("Number of seconds in one decade are:")
+print ("60*157680000")
+print (secperminutes * decade * minutesayear)
+print ("I am:")
+print ((30/10) * 9460800000)
+
+# Andrea Visanoiu's age 
+
+# age in seconds
+print ('')
+print ("__Andrea Visanoiu's age__")
+print ("Andrea Visanoiu's age in seconds is:")
+print ("4861800")
+print ("Age to years become:")
+time = 48618000
+import time
+seconds = time.time()
+years = seconds/60/60/24/365.25
+print (years)
