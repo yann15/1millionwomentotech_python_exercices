@@ -1,0 +1,23 @@
+# Getting the favorite number from user
+
+num = int(input("Antre chif oswa nomb ou pi renmen an: "))
+
+# # Adding the number + 1 to have the bigger and better
+sum = num + 1
+
+# # Displaying the result
+print("Youn nan pi gwo chif oswa nomb sa a se: ", sum)
+print("Eske w dako?")
+#print("Answer:'wi ou non'?")
+
+text = ""
+
+while text != "wi":
+	text = input("Ki chwa w t ap fe? '2 L E T': ")
+	print("Ou reponn: " + text + "...")
+	#print("Se pa yon bon repons!M regret sa!")
+
+	if text == "wi":
+		print("B R A V O!!!")
+		print("Ou byen reponn!")
+		break
