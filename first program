@@ -1,0 +1,11 @@
+# first program
+
+text = ""
+
+while text != "oke":
+	text = input("cheche mo pa m nan! Ou poko jwenn mo pa m nan: ")
+	print("ou di m:" + text + ",")
+
+	if text == "oke":
+		print("bon m ba w vag! M fe w swe sa w di?")
+		break
